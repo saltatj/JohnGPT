@@ -1,4 +1,4 @@
-# JohnGPT 🤖
+# JohnGPT 
 
 Hey there! This is JohnGPT, a little project I put together because I wanted to create a chatbot that was actually nice to look at and fun to use.
 
