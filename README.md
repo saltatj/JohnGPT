@@ -2,7 +2,7 @@
 
 Hey there! This is JohnGPT, a little project I put together because I wanted to create a chatbot that was actually nice to look at and fun to use.
 
-![JohnGPT Screenshot](./static/home.png)
+![JohnGPT Screenshot](./static/home.jpg)
 
 ## The Idea
 

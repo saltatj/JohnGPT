@@ -46,10 +46,10 @@ async function sendMessage() {
       const data = await res.json();
       
       aiMessage.classList.remove("is-typing"); 
-      aiMessage.textContent = `Mistral: ${data.response || "Sorry, I didn’t get that."}`;
+      aiMessage.textContent = `JohnGPT: ${data.response || "Sorry, I didn’t get that."}`;
     } catch (err) {
       aiMessage.classList.remove("is-typing"); 
-      aiMessage.textContent = "Mistral: Error communicating with the AI.";
+      aiMessage.textContent = "JohnGPT: Error communicating with the AI.";
     }
   
     chatBox.scrollTop = chatBox.scrollHeight;
