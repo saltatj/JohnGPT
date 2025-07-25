@@ -6,9 +6,7 @@ Hey there! This is JohnGPT, a little project I put together because I wanted to 
 
 ## The Idea
 
-I've always loved the clean look of iMessage and thought it would be a fun challenge to build a chatbot that felt just as smooth and intuitive. This project was my way of combining a smart AI backend with a frontend that's all about that simple, familiar Apple vibe.
-
-Everything you see, from the chat bubbles to the typing animation, was built from scratch to create something that feels polished and personal.
+I've always loved the clean look of iMessage and thought it would be a fun challenge to build my very first chatbot. Everything you see, from the chat bubbles to the typing animation, was built from scratch to create something that feels like you're messaging someone from an iPhone! 
 
 ## Key Features
 
@@ -19,8 +17,9 @@ Everything you see, from the chat bubbles to the typing animation, was built fro
 * **Simple & Fast Backend:** Built with FastAPI, ensuring a lightweight and high-performance server.
 * **Vanilla Frontend:** No complex frameworks—just good old HTML, CSS, and JavaScript.
 
-## Tech I Used
+## Tech Used
 
 * **Backend:** Python with **FastAPI**
 * **AI Model Hosting:** **Ollama**
+* **AI Model:** **Mistral**
 * **Frontend:** HTML5, CSS3, Vanilla JavaScript
