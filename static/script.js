@@ -15,7 +15,7 @@ async function sendMessage() {
     appendMessage("You", userText, "user");
     input.value = "";
   
-    // ---- START: New code for Read Receipt ----
+    // Read Reciept function
     const currentTime = new Date().toLocaleTimeString('en-US', {
       hour: 'numeric',
       minute: '2-digit'
@@ -24,9 +24,9 @@ async function sendMessage() {
     readReceipt.className = 'read-receipt';
     readReceipt.textContent = `Read ${currentTime}`;
     chatBox.appendChild(readReceipt);
-    // ---- END: New code for Read Receipt ----
+
   
-    // Create an empty assistant message bubble
+    // imsg ... 
     const aiMessage = appendMessage("", "", "assistant");
     aiMessage.classList.add("is-typing"); 
   
@@ -60,7 +60,6 @@ async function sendMessage() {
 function appendMessage(sender, text, className) {
   const message = document.createElement("div");
   message.className = `message ${className}`;
-  // Only add the sender and text if text is provided
   if (text) {
     message.textContent = `${sender}: ${text}`;
   }
@@ -69,7 +68,7 @@ function appendMessage(sender, text, className) {
   return message;
 }
 
-// Enter key support with prevention of double submit
+// prevents double submission 
 input.addEventListener("keydown", function (event) {
   if (event.key === "Enter" && !event.shiftKey) {
     event.preventDefault();
@@ -77,5 +76,4 @@ input.addEventListener("keydown", function (event) {
   }
 });
 
-// Button click handler
 sendButton.addEventListener("click", sendMessage);
