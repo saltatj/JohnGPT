@@ -60,7 +60,10 @@ async function sendMessage() {
 function appendMessage(sender, text, className) {
   const message = document.createElement("div");
   message.className = `message ${className}`;
-  message.textContent = `${sender}: ${text}`;
+  // Only add the sender and text if text is provided
+  if (text) {
+    message.textContent = `${sender}: ${text}`;
+  }
   chatBox.appendChild(message);
   chatBox.scrollTop = chatBox.scrollHeight;
   return message;
@@ -71,7 +74,7 @@ input.addEventListener("keydown", function (event) {
   if (event.key === "Enter" && !event.shiftKey) {
     event.preventDefault();
     sendMessage();
-  }s
+  }
 });
 
 // Button click handler

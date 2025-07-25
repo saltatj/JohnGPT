@@ -23,3 +23,12 @@ I've always loved the clean look of iMessage and thought it would be a fun chall
 * **AI Model Hosting:** **Ollama**
 * **AI Model:** **Mistral**
 * **Frontend:** HTML5, CSS3, Vanilla JavaScript
+
+## Future Ideas 
+This project was a ton of fun, but there are definitely a few things I'd love to add down the road:
+
+**Markdown Support:** It would be awesome to let the AI respond with formatted text.
+
+**Conversation History:** Right now, my bot has the memory of a goldfish. It would be a game-changer to let it remember the last few messages in a conversation to make the chat feel more natural and context-aware.
+
+**Better Error Handling:** If something breaks when talking to the AI, it would be much nicer to show a friendly "Oops! Something went wrong" message in the chat instead of just failing silently.

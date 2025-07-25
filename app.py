@@ -51,6 +51,6 @@ def chat (prompt: str = Query( ..., description="User prompt for the chatbot")):
         raise HTTPException(status_code=500, detail=f"REquest to Ollama failed:{str(e)}")
 
 # Run the API server
-if __name__ == "__madin__":
+if __name__ == "__main__":
     import uvicorn 
     uvicorn.run(app, host="0.0.0.0", port=8000, reload=True)
