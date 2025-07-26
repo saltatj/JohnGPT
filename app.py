@@ -12,7 +12,7 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 
 # Ollama settings 
 OLLAMA_URL = "http://localhost:11434/api/generate"
-MODEL_NAME = "deepseek-r1:8b"
+MODEL_NAME = "deepseek-r1:8b" # Using Deepseek 
 
 @app.get("/")
 def serve_homepage():
