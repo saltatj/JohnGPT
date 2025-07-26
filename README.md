@@ -21,7 +21,7 @@ I've always loved the clean look of iMessage and thought it would be a fun chall
 
 * **Backend:** Python with **FastAPI**
 * **AI Model Hosting:** **Ollama**
-* **AI Model:** **Mistral**
+* **AI Model:** **DeepSeek**
 * **Frontend:** HTML5, CSS3, Vanilla JavaScript
 
 ## Future Ideas 
